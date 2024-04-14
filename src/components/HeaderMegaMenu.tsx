@@ -1,14 +1,16 @@
 import { Group, Button, Box } from "@mantine/core";
-import { MantineLogo } from "@mantinex/mantine-logo";
 import classes from "../styles/HeaderMegaMenu.module.css";
+import logo from "../assets/gradient.svg";
+import { Link } from "react-router-dom";
 
 export function HeaderMegaMenu() {
   return (
-    <Box pb={120}>
+    <Box>
       <header className={classes.header}>
         <Group justify="space-between" h="100%">
-          <MantineLogo size={30} />
-
+          <Link to="/">
+            <img src={logo} height="48px" />
+          </Link>
           <Group h="100%" gap={0} visibleFrom="sm">
             <a href="/" className={classes.link}>
               Home
@@ -19,7 +21,18 @@ export function HeaderMegaMenu() {
           </Group>
 
           <Group visibleFrom="sm">
-            <Button variant="default">Join the waitlist</Button>
+            <Button
+              variant="gradient"
+              gradient={{
+                from: "rgba(213, 106, 252, 1)",
+                to: "rgba(255, 255, 255, 1)",
+                deg: 219,
+              }}
+              component={Link}
+              to="/waitlist"
+            >
+              Join the waitlist
+            </Button>
           </Group>
         </Group>
       </header>
