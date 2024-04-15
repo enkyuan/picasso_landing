@@ -12,10 +12,14 @@ export function HeaderMegaMenu() {
             <img src={logo} height="48px" />
           </Link>
           <Group h="100%" gap={0} visibleFrom="sm">
-            <a href="/" className={classes.link}>
+            <a href="/" className={classes.link} style={{ fontWeight: "bold" }}>
               Home
             </a>
-            <a href="/contact" className={classes.link}>
+            <a
+              href="/contact"
+              className={classes.link}
+              style={{ fontWeight: "bold" }}
+            >
               Contact
             </a>
           </Group>
