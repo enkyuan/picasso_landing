@@ -12,7 +12,7 @@ export default function Home() {
       />
       <Spline scene="https://prod.spline.design/EV39zPMo5WvUdtFF/scene.splinecode" />
       <Spline scene="https://prod.spline.design/W6Jj6gD2Qx9AAqlK/scene.splinecode" />
-      <Spline scene="https://prod.spline.design/p7nl1-ji-pgSLLZj/scene.splinecode" />
+      <Spline scene="https://prod.spline.design/u-xJyvIJGcWEMsYp/scene.splinecode" />
     </div>
   );
 }
