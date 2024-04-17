@@ -21,7 +21,7 @@ export default function WaitList() {
       }}>
         <h1>Contact Us</h1>
         <a href="mailto:company@company.com" style={{ fontSize: '1.5em', color: '#fff' }}>
-          companyuse@picasso.com
+          contact@picassocard.com
         </a>
       </div>
     </div>
