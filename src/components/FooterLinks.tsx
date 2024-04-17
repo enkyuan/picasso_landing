@@ -1,7 +1,7 @@
 import { Text, Container, ActionIcon, Group, rem } from "@mantine/core";
 import {
+  IconBrandLinkedin,
   IconBrandTwitter,
-  IconBrandYoutube,
   IconBrandInstagram,
 } from "@tabler/icons-react";
 import classes from "../styles/FooterLinks.module.css";
@@ -9,18 +9,27 @@ import logo from "../assets/gradient.svg";
 
 const data = [
   {
-    title: "About",
+    title: "Picasso",
     links: [
-      { label: "Support", link: "#" },
-      { label: "Waitlist", link: "#" },
+      { label: "Home", link: "/" },
+      { label: "Contact", link: "/contact" },
+      { label: "Waitlist", link: "/waitist" },
     ],
   },
   {
     title: "Community",
     links: [
-      { label: "Join Discord", link: "#" },
-      { label: "Follow on LinkedIn", link: "#" },
-      { label: "GitHub", link: "#" },
+      { label: "Email", link: "mailto:contact@picassocard.co" },
+      { label: "LinkedIn", link: "https://www.linkedin.com/company/picasso-card" },
+      { label: "X (Twitter)", link: "#" },
+      { label: "Instagram", link: "#" },
+    ],
+  },
+  {
+    title: "Legal",
+    links: [
+      { label: "Privacy Policy", link: "#" },
+      { label: "Terms of Use", link: "#" },
     ],
   },
 ];
@@ -52,41 +61,43 @@ export function FooterLinks() {
       <Container className={classes.inner}>
         <div className={classes.logo}>
           <img src={logo} height="48px" />
-          <Text size="xs" c="dimmed" className={classes.description}>
-            Build fully functional accessible web applications faster than ever
-          </Text>
         </div>
         <div className={classes.groups}>{groups}</div>
       </Container>
       <Container className={classes.afterFooter}>
         <Text c="dimmed" size="sm">
-          © 2024 picasso.card. All rights reserved.
+          © 2024 Picasso
         </Text>
-
         <Group
           gap={0}
           className={classes.social}
           justify="flex-end"
           wrap="nowrap"
         >
-          <ActionIcon size="lg" color="gray" variant="subtle">
-            <IconBrandTwitter
-              style={{ width: rem(18), height: rem(18) }}
-              stroke={1.5}
-            />
-          </ActionIcon>
-          <ActionIcon size="lg" color="gray" variant="subtle">
-            <IconBrandYoutube
-              style={{ width: rem(18), height: rem(18) }}
-              stroke={1.5}
-            />
-          </ActionIcon>
-          <ActionIcon size="lg" color="gray" variant="subtle">
-            <IconBrandInstagram
-              style={{ width: rem(18), height: rem(18) }}
-              stroke={1.5}
-            />
-          </ActionIcon>
+          <a href="https://www.linkedin.com/company/picasso-card">
+            <ActionIcon size="lg" color="gray" variant="subtle">
+              <IconBrandLinkedin
+                style={{ width: rem(18), height: rem(18) }}
+                stroke={1.5}
+              />
+            </ActionIcon>
+          </a>
+          <a href="#">
+            <ActionIcon size="lg" color="gray" variant="subtle">
+              <IconBrandTwitter
+                style={{ width: rem(18), height: rem(18) }}
+                stroke={1.5}
+              />
+            </ActionIcon>
+          </a>
+          <a href="#">
+            <ActionIcon size="lg" color="gray" variant="subtle">
+              <IconBrandInstagram
+                style={{ width: rem(18), height: rem(18) }}
+                stroke={1.5}
+              />
+            </ActionIcon>
+          </a>
         </Group>
       </Container>
     </footer>
