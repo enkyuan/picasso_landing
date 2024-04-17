@@ -18,11 +18,14 @@
       var(--mantine-font-family);
     color: var(--mantine-color-white);
     line-height: 1;
+    font-size: rem(60px);
+    margin-bottom: 20px;
   }
   
   .description {
     color: var(--mantine-color-blue-0);
-    max-width: rem(300px);
+    max-width: rem(450px);
+    font-size: rem(24px);
   
     @media (max-width: $mantine-breakpoint-sm) {
       max-width: 100%;
