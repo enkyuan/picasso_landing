@@ -20,16 +20,9 @@ import {
             </Text>
           </div>
           <div className={classes.form}>
-          <TextInput
-              label="First Name"
-              placeholder=" Enter your first name"
-              mt="md"
-              required
-              classNames={{ input: classes.input, label: classes.inputLabel }}
-            />
             <TextInput
-              label="Last Name"
-              placeholder="Enter your last name"
+              label="Name"
+              placeholder="Enter your name"
               mt="md"
               required
               classNames={{ input: classes.input, label: classes.inputLabel }}
@@ -42,7 +35,7 @@ import {
               classNames={{ input: classes.input, label: classes.inputLabel }}
             />
             <Group justify="flex-end" mt="md">
-              <Button className={classes.control}>Join</Button>
+              <Button className={classes.control} style={{ backgroundColor: '#242424' }}>Join</Button>
             </Group>
           </div>
         </SimpleGrid>
