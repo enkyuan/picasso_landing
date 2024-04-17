@@ -62,3 +62,8 @@
     background-color: var(--mantine-color-blue-6);
   }
   
+  .centeredContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
