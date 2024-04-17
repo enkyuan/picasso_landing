@@ -7,6 +7,8 @@ export default function Home() {
     <div>
       <Spline scene="https://prod.spline.design/fU2f1Myk8B97Wt7h/scene.splinecode" />
       <Spline scene="https://prod.spline.design/AlpxgttatjkQI-K9/scene.splinecode" />
+      {/* <Spline style={{ height: "600px" }}
+      scene="https://prod.spline.design/AlpxgttatjkQI-K9/scene.splinecode" /> */}
     </div>
   );
 }
