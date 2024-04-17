@@ -24,10 +24,6 @@ const data = [
         label: "LinkedIn",
         link: "https://www.linkedin.com/company/picasso-card",
       },
-      {
-        label: "LinkedIn",
-        link: "https://www.linkedin.com/company/picasso-card",
-      },
       { label: "X (Twitter)", link: "https://twitter.com/Picasso_Card" },
       { label: "Instagram", link: "https://www.instagram.com/picasso_card/" },
     ],
