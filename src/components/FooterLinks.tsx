@@ -5,7 +5,7 @@ import {
   IconBrandInstagram,
 } from "@tabler/icons-react";
 import classes from "../styles/FooterLinks.module.css";
-import logo from "../assets/gradient.svg";
+import logo from "../assets/gradient_02.svg";
 
 const data = [
   {
@@ -20,7 +20,10 @@ const data = [
     title: "Community",
     links: [
       { label: "Email", link: "mailto:contact@picassocard.co" },
-      { label: "LinkedIn", link: "https://www.linkedin.com/company/picasso-card" },
+      {
+        label: "LinkedIn",
+        link: "https://www.linkedin.com/company/picasso-card",
+      },
       { label: "X (Twitter)", link: "#" },
       { label: "Instagram", link: "#" },
     ],

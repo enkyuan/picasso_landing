@@ -1,6 +1,6 @@
 import { Group, Button, Box } from "@mantine/core";
 import classes from "../styles/HeaderMegaMenu.module.css";
-import logo from "../assets/gradient.svg";
+import logo from "../assets/gradient_02.svg";
 import { Link } from "react-router-dom";
 
 export function HeaderMegaMenu() {
