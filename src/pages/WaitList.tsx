@@ -1,12 +1,7 @@
-import React, { Suspense } from "react";
-const Spline = React.lazy(() => import("@splinetool/react-spline"));
+import { Waitlist } from "../components/Waitlist";
 
-export default function WaitList() {
+export default function Contact() {
   return (
-    <div>
-      <Suspense fallback={<div>Loading...</div>}>
-        <Spline scene="https://prod.spline.design/GFAU3fGESbgO-jqZ/scene.splinecode" />
-      </Suspense>
-    </div>
+      <Waitlist />
   );
 }
