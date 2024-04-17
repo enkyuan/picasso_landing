@@ -13,7 +13,7 @@ const data = [
     links: [
       { label: "Home", link: "/" },
       { label: "Contact", link: "/contact" },
-      { label: "Waitlist", link: "/waitist" },
+      { label: "Waitlist", link: "/waitlist" },
     ],
   },
   {
@@ -21,8 +21,8 @@ const data = [
     links: [
       { label: "Email", link: "mailto:contact@picassocard.co" },
       { label: "LinkedIn", link: "https://www.linkedin.com/company/picasso-card" },
-      { label: "X (Twitter)", link: "#" },
-      { label: "Instagram", link: "#" },
+      { label: "X (Twitter)", link: "https://twitter.com/Picasso_Card" },
+      { label: "Instagram", link: "https://www.instagram.com/picasso_card/" },
     ],
   },
   {
@@ -42,7 +42,6 @@ export function FooterLinks() {
         className={classes.link}
         component="a"
         href={link.link}
-        onClick={(event) => event.preventDefault()}
       >
         {link.label}
       </Text>
@@ -82,7 +81,7 @@ export function FooterLinks() {
               />
             </ActionIcon>
           </a>
-          <a href="#">
+          <a href="https://twitter.com/Picasso_Card">
             <ActionIcon size="lg" color="gray" variant="subtle">
               <IconBrandTwitter
                 style={{ width: rem(18), height: rem(18) }}
@@ -90,7 +89,7 @@ export function FooterLinks() {
               />
             </ActionIcon>
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/picasso_card/">
             <ActionIcon size="lg" color="gray" variant="subtle">
               <IconBrandInstagram
                 style={{ width: rem(18), height: rem(18) }}
