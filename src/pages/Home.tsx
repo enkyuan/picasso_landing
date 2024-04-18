@@ -52,9 +52,9 @@ function Cubic() {
           <Button
             variant="gradient"
             gradient={{
-              from: "rgba(213, 106, 252, 1)",
-              to: "rgba(255, 255, 255, 1)",
-              deg: 219,
+              from: "rgba(237, 189, 255, 1)",
+              to: "rgba(159, 202, 253, 0.5)",
+              deg: 210,
             }}
             component={Link}
             to="/waitlist"
