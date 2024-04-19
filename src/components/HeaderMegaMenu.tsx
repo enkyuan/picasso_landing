@@ -15,7 +15,7 @@ export function HeaderMegaMenu() {
   return (
     <Box>
       <header className={classes.header}>
-        <Group justify="space-between" h="100%">
+        <Group justify="space-between" h="100%" className={classes.webHeader}>
           <Link to="/">
             <img src={logo} height="48px" />
           </Link>
@@ -52,8 +52,8 @@ export function HeaderMegaMenu() {
             onClick={toggleDropdown}
           />
         </Group>
-
-        {isDropdownVisible ? (
+      </header>
+      {isDropdownVisible ? (
           <div className={classes.fullScreenDiv}>
             <a
               href="/"
@@ -90,7 +90,6 @@ export function HeaderMegaMenu() {
             </Button>
           </div>
         ) : null}
-      </header>
     </Box>
   );
 }
