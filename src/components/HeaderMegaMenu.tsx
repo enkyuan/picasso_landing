@@ -69,6 +69,7 @@ const toggleDropdown = () => {
         component={Link}
         to="/waitlist"
         style={{ height: '70px', width: '300px', borderRadius: '999px', fontSize: '24px'}}
+        onClick={toggleDropdown}
       >
         Join the waitlist
       </Button>

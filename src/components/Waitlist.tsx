@@ -35,8 +35,7 @@ export function Waitlist() {
         <div className={classes.centeredContent}>
           <Title className={classes.title}>Join the Waitlist</Title>
           <Text className={classes.description} mt="sm" mb={30}>
-            Be one of the first to own a Picasso Card. Sign up to get early
-            access.
+          Join the exclusive circle of early Picasso Card holders. Sign up now for early access and unlock a special offer when we launch!
           </Text>
         </div>
         <div className={classes.form}>
