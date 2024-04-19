@@ -1,6 +1,6 @@
-import React, { Suspense, useState, useEffect } from "react";
+import { Suspense, useState, useEffect } from "react";
 import { FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-const Spline = React.lazy(() => import("@splinetool/react-spline"));
+import Spline from "@splinetool/react-spline";
 
 export default function ContactPage() {
   const socialLinks = [
