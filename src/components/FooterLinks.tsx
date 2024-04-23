@@ -5,7 +5,7 @@ import {
   IconBrandInstagram,
 } from "@tabler/icons-react";
 import classes from "../styles/FooterLinks.module.css";
-import logo from "../assets/gradient_02.svg";
+import logo from "../assets/gradient_word.svg";
 
 const data = [
   {

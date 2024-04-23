@@ -31,6 +31,7 @@ function Cubic() {
       ) : (
         <>
           <Spline scene="https://prod.spline.design/AlpxgttatjkQI-K9/scene.splinecode" />
+          <Spline scene="https://prod.spline.design/9MR1xyQCeJECSg5p/scene.splinecode" />
           <div
             style={{
               height: "160px",
@@ -50,13 +51,13 @@ function Cubic() {
               component={Link}
               to="/waitlist"
               style={{
-                height: "70px",
-                width: "300px",
+                height: "60px",
+                width: "240px",
                 borderRadius: "999px",
                 fontSize: "24px",
               }}
             >
-              Join the waitlist
+              Get early access
             </Button>
           </div>
         </>
