@@ -1,6 +1,6 @@
 import { Group, Button, Box } from "@mantine/core";
 import classes from "../styles/HeaderMegaMenu.module.css";
-import logo from "../../public/gradient_02.svg";
+import logo from "/gradient_02.svg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Burger } from "@mantine/core";
